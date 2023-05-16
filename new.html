@@ -1,0 +1,548 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>CV of Qiang Zhang</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <style type="text/css">
+        /*Font support for MAC*/
+        /* @font-face {
+            font-family: 'Century Gothic';
+            font-weight: normal;
+            font-style: normal;
+            src: local('Century Gothic'), url('https://builder.zety.com/blobcontent/zty/fonts/CenturyGothic.ttf') format('truetype')
+        }
+
+        @font-face {
+            font-family: 'Century Gothic';
+            font-weight: bold;
+            font-style: normal;
+            src: local('Century Gothic Bold'), url('https://builder.zety.com/blobcontent/zty/fonts/CenturyGothicBold.ttf') format('truetype')
+        }
+
+        @font-face {
+            font-family: 'Century Gothic';
+            font-weight: bold;
+            font-style: italic;
+            src: local('Century Gothic Bold Italic'), url('https://builder.zety.com/blobcontent/zty/fonts/CenturyGothicBoldItalic.ttf') format('truetype')
+        }
+
+        @font-face {
+            font-family: 'Century Gothic';
+            font-weight: normal;
+            font-style: italic;
+            src: local('Century Gothic Italic'), url('https://builder.zety.com/blobcontent/zty/fonts/CenturyGothicItalic.ttf') format('truetype')
+        } */
+
+        html,
+        body,
+        div,
+        span,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        a,
+        em,
+        img,
+        ul,
+        li,
+        label {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            outline: 0;
+            vertical-align: baseline;
+            background: transparent;
+            list-style: none;
+        }
+
+        body {
+            text-align: left;
+            font-feature-settings: "liga" 0;
+            -moz-font-feature-settings: "liga" off
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        hr {
+            border-top: 1px solid #333;
+            height: 1px;
+        }
+
+        .wrapper {
+            display: flex;
+            width: 100%;
+            height: 100vh;
+            /* font-family: 'Century Gothic'; */
+        }
+
+        .wrapper .left-side {
+            /* display: flex; */
+            width: 190px;
+            height: 100%;
+            background: #003D73;
+            color: #FFF;
+        }
+
+        .wrapper .left-side h2 {
+            background: #003D73;
+            filter: brightness(0.8);
+            padding: 5px 10px;
+        }
+
+        .inner {
+            padding: 10px;
+        }
+
+        .wrapper .left-side .base {
+            padding: 15px;
+        }
+
+        .wrapper .left-side .base .name {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .wrapper .left-side .base .avatar {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .wrapper .left-side .base .avatar img {
+            width: 100%;
+        }
+
+        .wrapper .left-side .contact {
+            margin-top: 5px;
+        }
+
+        .wrapper .left-side .contact a {
+            color: #FFF;
+            /* text-decoration: none; */
+        }
+
+        .wrapper .left-side .contact .social {
+            font-size: 14px;
+            padding: 5px 5px;
+        }
+
+        .wrapper .left-side .contact .social span {
+            display: block;
+            font-weight: 600;
+        }
+
+        .wrapper .left-side .skills {
+            margin-top: 15px;
+        }
+
+        .wrapper .left-side .skills ul {
+            font-size: 14px;
+            padding: 0px 5px;
+        }
+
+        .wrapper .left-side .skills ul li {
+            padding: 1px 0;
+        }
+
+        .wrapper .left-side .skills ul li span {
+            display: block;
+            padding: 5px 0;
+        }
+
+        .wrapper .right-side {
+            padding: 10px;
+            width: 100%;
+        }
+
+        .wrapper .right-side a {
+            color: #00F;
+            /* text-decoration: none; */
+        }
+
+        .wrapper .right-side .introduce {
+            margin-top: 10px;
+        }
+
+        .wrapper .right-side .introduce p {
+            margin-top: 15px;
+            font-size: 18px;
+            line-height: 20px;
+        }
+
+        .wrapper .right-side .experience,
+        .education {
+            margin-top: 25px;
+        }
+
+        .wrapper .right-side .experience .item {
+            display: flex;
+            padding: 5px 0;
+            line-height: 20px;
+            border-bottom: 1px dotted #CCC;
+        }
+
+        .wrapper .right-side .experience .item .duration {
+            width: 80px;
+            max-width: 100px;
+        }
+
+        .wrapper .right-side .experience .item .details {
+            width: calc(100% - 80px);
+        }
+
+        .wrapper .right-side .experience .item .details .title {
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        .wrapper .right-side .education .item {
+            display: flex;
+            padding: 5px 0;
+            line-height: 20px;
+            border-bottom: 1px dotted #CCC;
+        }
+
+        .wrapper .right-side .education .item .duration {
+            width: 80px;
+            max-width: 100px;
+        }
+
+        .wrapper .right-side .education .item .details {
+            width: calc(100% - 80px);
+        }
+
+        .wrapper .right-side .education .item .details .title {
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        .outer-square {
+            height: 10px;
+            position: relative;
+            background: #003D73;
+            filter: brightness(0.8);
+        }
+
+        .inner-square {
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 10px;
+            background: #FFF;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <section class="left-side">
+
+            <div class="base">
+                <div class="avatar">
+                    <img src="./images/avatar.png" />
+                </div>
+                <div class="name">
+                    <h1>Qiang Zhang</h1>
+                </div>
+            </div>
+
+
+            <div class="contact">
+                <h2>Contact</h2>
+                <div class="inner">
+                    <div class="social github">
+                        <span class="title">Github Link:</span>
+                        <a href="https://github.com/Qiang156" target="_blank">github.com/Qiang156</a>
+                    </div>
+                    <div class="social linkedln">
+                        <span class="title">Linkedln Profile:</span>
+                        <a href="https://linkedin.com/in/qiang156" target="_blank">linkedin.com/in/qiang156</a>
+                    </div>
+                    <div class="social phone">
+                        <span class="title">Phone Number:</span>
+                        (+46) 736 31 20 89
+                    </div>
+                    <div class="social email">
+                        <span class="title">Email Address:</span>
+                        qiang.zhang156@gmail.com
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="skills">
+                <h2>Skills</h2>
+                <div class="inner">
+                    <ul>
+                        <li>
+                            <span>PHP with OOP</span>
+                            <div class="outer-square">
+                                <div class="inner-square" style="width: 90%;"></div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <span>Git</span>
+                            <div class="outer-square">
+                                <div class="inner-square" style="width: 85%;"></div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <span>MySQL</span>
+                            <div class="outer-square">
+                                <div class="inner-square" style="width: 85%;"></div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <span>HTML</span>
+                            <div class="outer-square">
+                                <div class="inner-square" style="width: 90%;"></div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <span>CSS</span>
+                            <div class="outer-square">
+                                <div class="inner-square" style="width: 87%;"></div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <span>Javascript</span>
+                            <div class="outer-square">
+                                <div class="inner-square" style="width: 85%;"></div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <span>ReactJS</span>
+                            <div class="outer-square">
+                                <div class="inner-square" style="width: 85%;"></div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <span>Python</span>
+                            <div class="outer-square">
+                                <div class="inner-square" style="width: 75%;"></div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <span>Django</span>
+                            <div class="outer-square">
+                                <div class="inner-square" style="width: 70%;"></div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <span>C#</span>
+                            <div class="outer-square">
+                                <div class="inner-square" style="width: 50%;"></div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <span>Java</span>
+                            <div class="outer-square">
+                                <div class="inner-square" style="width: 50%;"></div>
+                            </div>
+                        </li>
+
+                        <!-- <li>
+                            <span>Security</span>
+                            <div class="outer-square">
+                                <div class="inner-square" style="width: 65%;"></div>
+                            </div>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="right-side">
+            <div class="inner">
+
+                <div class="introduce">
+                    <h3>RE: Backend developer</h3>
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;Having worked as a skilled Backend Developer for several years, I
+                        possess the essential
+                        qualities of a great team player while also demonstrating the ability to work independently. My
+                        extensive experience in development has equipped me with the necessary skills to make a valuable
+                        contribution to any team. I am confident in my ability to quickly integrate myself into your
+                        team and become an asset with my expertise and knowledge.
+                    </p>
+                </div>
+
+                <!-- -------------- -->
+                <div class="experience">
+
+                    <h2>Experience</h2>
+                    <hr />
+
+                    <div class="item">
+
+                        <div class="duration">2022-05 - current</div>
+
+                        <div class="details">
+                            <div class="title">Full-stack developer</div>
+
+                            <div class="information">
+                                <span class="company"><a href="https://www.talentmatchglobal.com/"
+                                        target="_blank">Talent Match</a>,</span>
+                                <span class="location">Stockholm, Sweden</span>
+                            </div>
+
+                            <div class="description">
+                                As a full-stack developer, I am responsible for developing and maintaining both the
+                                front-end and back-end of web applications, involving designing and building complete
+                                web applications, including the user interface, server-side logic, and database
+                                management.<br />
+
+                                Using ReactJS to implement the user interface of web applications according to the
+                                design specifications in Figma, and create endpoints for the back-end using Laravel
+                                framework.<br />
+
+                                Additionally, I follow the Test-Driven Development (TDD) methodology to ensure
+                                high-quality code on both sides.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="duration">2022-02 - 2022-05</div>
+                        <div class="details">
+                            <div class="title">Backend developer</div>
+                            <div class="information">
+                                <span class="company"><a href="https://www.vaimo.com/" target="_blank">Vaimo</a>,</span>
+                                <span class="location">Stockholm, Sweden</span>
+                            </div>
+                            <div class="description">
+                                Worked as a backend developer in development team for Magento2.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="duration">2016-09 - 2020-08</div>
+                        <div class="details">
+                            <div class="title">Research Assistant</div>
+                            <div class="information">
+                                <span class="company">
+                                    <a href="https://www.su.se/department-of-physical-geography/"
+                                        target="_blank">Stockholm University</a>,</span>
+                                <span class="location">Stockholm, Sweden</span>
+                            </div>
+                            <div class="description">
+                                Maintaining and developing functional modules for Global Climate Modeling EC-Earth<br />
+                                Analyzing output data with Python and Shell script.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="duration">2014-08 - 2016-02</div>
+                        <div class="details">
+                            <div class="title">Development Manager</div>
+                            <div class="information">
+                                <span class="company">Enke Technology co., ltd.,</span>
+                                <span class="location">Shenzhen, China</span>
+                            </div>
+                            <div class="description">
+                                Developing back-end API for EPOS with Workerman framework, creating basic
+                                functionalities and distributing tasks<br />
+                                Reviewing codes and Providing support to colleagues
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="duration">2007-05 - 2014-07</div>
+                        <div class="details">
+                            <div class="title">PHP Developer</div>
+                            <div class="information">
+                                <span class="company">Haofeng Technology co., ltd.,</span>
+                                <span class="location">Shenzhen, China</span>
+                            </div>
+                            <div class="description">
+                                Working as a full-stack developer for the Office Automation System. Using Jquery and
+                                Yii2 framework.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- -------------- -->
+                <div class="education">
+                    <h2>Education</h2>
+                    <hr />
+
+                    <div class="item">
+                        <div class="duration">2021-09 - 2022-02</div>
+                        <div class="details">
+                            <div class="course">System Developer Python and IT security</div>
+                            <div class="information">
+                                <span class="company"><a href="https://www.lexicon.se/" target="_blank">Lexicon
+                                        Yrkesutbildning</a></span> -
+                                <span class="location">Stockholm, Sweden</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="duration">2014-09 - 2016-06</div>
+                        <div class="details">
+                            <div class="course">Atmospheric Sciences And Meteorology</div>
+                            <div class="information">
+                                <span class="company"><a href="https://atmos.sysu.edu.cn/" target="_blank">Sun Yat-sen
+                                        University</a></span> -
+                                <span class="location">Guangzhou, Guangdong Province, China</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="duration">2000-09 - 2004-06</div>
+                        <div class="details">
+                            <div class="course">Bachelor of Science in Applied Mathematics</div>
+                            <div class="information">
+                                <span class="company"><a href="https://www.hynu.edu.cn/" target="_blank">Hengyang Normal
+                                        University</a></span> -
+                                <span class="location">Hengyang, Hunan Province, China</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+
+</body>
+
+</html>
